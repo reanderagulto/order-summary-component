@@ -8,18 +8,40 @@
   
   <title>Frontend Mentor | Order summary card</title>
 
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
 
+  <main>
+    <div class="container">
+      <div class="img-container">
+        <img src="./images/illustration-hero.svg" alt="Hero Banner" class="hero-banner">
+      </div>
+      <div class="text-container">
+        <h1>Order Summary</h1>
+        <p class="desc">You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!</p>
+        <div class="plan-container">
+          <div>
+            <img src="./images/icon-music.svg" alt="Music">
+            <p>Annual Plan <span>$59.99/year</span></p>
+          </div>
+          <a href="#">Change</a>
+        </div>
+        <button class="btn btn-submit">Proceed to Payment</button>
+        <button class="btn btn-cancel">Cancel Order</button>
+      </div>
+    </div>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/reanderagulto">Reander Agulto</a>.
   </div>
 </body>
 </html>
